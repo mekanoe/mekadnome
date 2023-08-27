@@ -1,0 +1,11 @@
+@import "https://raw.githack.com/GeopJr/DNOME/dist/DNOME.css";
+
+* { 
+  --font-primary: "Atkinson Hyperlegible", "gg Sans", sans-serif; 
+  --font-code: "Fira Code", monospace;
+  --dnome-border: #161313;
+}
+
+li[id*=chat-messages-][class*=messageListItem-]>div[class*=message-] article[class*=embedWrapper-], section[class*=searchResultsWrap-]>div>div[role=list]>ul[role=group]>li[role=listitem]>div[class*=searchResult-] article[class*=embedWrapper-] {
+  border-width: 2px 0 0 2px; 
+}
