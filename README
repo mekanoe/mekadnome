@@ -1,0 +1,10 @@
+My Discord theme, based on DNOME but I dislike a lot about it, so this changes some things.
+
+$ mkdir -p ~/.config/discord
+
+$ curl -sSL https://raw.githubusercontent.com/mekanoe/mekadnome/main/use.css > ~/.config/discord/mekadnome.css
+
+$ crycord -c ~/.config/discord/mekadnome.css -p enable_https,enable_css,enable_web_tools
+
+Optionally:
+$ sudo flatpak override --filesystem=~/.config/discord com.discordapp.Discord
